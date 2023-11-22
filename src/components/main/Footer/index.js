@@ -162,7 +162,7 @@ const Footer = (props) => {
                 {OFFICIAL_MAIL}
               </a> */}
                <div className={classes.items}>
-                <a href="#" className={classes.item}>
+                <a href="https://maps.app.goo.gl/iLwMMLWQjwu54j2u6" className={classes.item}>
                       <i class="bx bx-map text-primary"></i>
                       502-1450 Meyerside Dr, Mississauga , ON Canada L5T 2N5
                 </a>

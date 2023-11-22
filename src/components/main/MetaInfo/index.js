@@ -10,7 +10,6 @@ const MetaInfo = (
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="icon" href={`icons/q-provibe.png`} />
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
   );

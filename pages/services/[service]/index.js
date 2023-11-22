@@ -4,6 +4,7 @@ import { Services } from "../../../src/globals/mock";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Animate from "../../../src/components/core/Animate";
+import MetaInfo from "../../../src/components/main/MetaInfo";
 
 const Service = (props) => {
   const router = useRouter();
@@ -20,8 +21,9 @@ const Service = (props) => {
     }
   }, [router]);
 
-  return (
-    service && (
+  return service && (
+    <>  {MetaInfo()}
+      (
       <div className={classes.container}>
         <Animate>
           <div className={classes.bg}>
@@ -48,7 +50,8 @@ const Service = (props) => {
           </div>
         )}
       </div>
-    )
+      )
+    </>
   );
 };
 
