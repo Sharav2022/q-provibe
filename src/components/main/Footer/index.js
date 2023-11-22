@@ -158,9 +158,24 @@ const Footer = (props) => {
               <div className={classes.txt}>
                 <div>Contact Us</div>
               </div>
-              <a href={`mailto:${OFFICIAL_MAIL}`} className={classes.mail}>
+              {/* <a href={`mailto:${OFFICIAL_MAIL}`} className={classes.mail}>
                 {OFFICIAL_MAIL}
-              </a>
+              </a> */}
+               <div className={classes.items}>
+                <a href="#" className={classes.item}>
+                      <i class="bx bx-map text-primary"></i>
+                      502-1450 Meyerside Dr, Mississauga , ON Canada L5T 2N5
+                </a>
+                <a href="tel:5195699736" className={classes.item}>
+                      <i class="bx bx-phone-call"></i>
+                      (519)&nbsp;569-9736
+                    </a>
+                <a href={`mailto:${OFFICIAL_MAIL}`} className={classes.item}>
+                  <i class="bx bx-envelope"></i>
+                  { OFFICIAL_MAIL}
+                </a>
+
+              </div>
             </div>
           </div>
         </div>
